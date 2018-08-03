@@ -27,7 +27,8 @@
                     <!-- Brand -->
                     <div class="navbar-brand">
                         <a class="navbar-item" href="/">
-                            <img src="assets/images/logos/bulkit-green.svg" alt="">
+                            <img class="light-logo" src="assets/images/logos/vp-logo-green.png" alt="">
+                            <img class="dark-logo" src="assets/images/logos/vp-logo-green.png" alt="">
                         </a>
             
                         <!-- Sidebar Trigger
@@ -62,32 +63,34 @@
             
                     <!-- Navbar menu -->
                     <div class="navbar-menu">
-                        <!-- Navbar Start -->
-                        <div class="navbar-start">
-                            <!-- Navbar item -->
-                            <a class="navbar-item is-slide" href="agency-about.html">
-                                About
-                            </a>
-                            <!-- Navbar item -->
-                            <a class="navbar-item is-slide" href="agency-portfolio.html">
-                                Portfolio
-                            </a>
-                            <!-- Navbar item -->
-                            <a class="navbar-item is-slide" href="agency-blog.html">
-                                Blog
-                            </a>
-                        </div>
-            
-                        <!-- Navbar end -->
-                        <div class="navbar-end">
-                            <!-- Signup button -->
-                            <div class="navbar-item">
-                                <a id="#signup-btn" href="#" class="button button-cta btn-outlined is-bold btn-align primary-btn rounded raised">
-                                    Contact
+                            <!-- Navbar Start -->
+                            <div class="navbar-start">
+                                <!-- Navbar item -->
+                                <a class="navbar-item is-slide" href="#about">
+                                        Our Services
                                 </a>
+                                <!-- Navbar item -->
+                                <a class="navbar-item is-slide" href="#portfolio">
+                                        Our Work
+                                </a>
+                                <!-- Navbar item -->
+                                <a class="navbar-item is-slide" href="#team">
+                                    Team
+                                </a>
+                                
+                                
+                            </div>
+                
+                            <!-- Navbar end -->
+                            <div class="navbar-end">
+                                <!-- Signup button -->
+                                <div class="navbar-item">
+                                    <a id="#signup-btn" href="#contact" class="button button-signup btn-outlined is-bold btn-align primary-btn rounded raised">
+                                        Let's Talk
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </nav>    
         </div>
@@ -104,19 +107,7 @@
                             <!-- Carousel item -->
                             <div class="carousel-item">
                                 <div class="image-wrapper">
-                                    <img src="https://via.placeholder.com/800x800" alt="">
-                                    <div class="caption has-text-left">
-                                        <span>Lorem ipsum dolor sit amet, vim brute malis vocibus ex, te mei magna persius. Duo nibh aliquam deleniti no.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Carousel item -->
-                            <div class="carousel-item">
-                                <div class="image-wrapper">
-                                    <img src="https://via.placeholder.com/800x800" alt="">
-                                    <div class="caption has-text-left">
-                                        <span>Lorem ipsum dolor sit amet, vim brute malis vocibus ex, te mei magna persius. Duo nibh aliquam deleniti no.</span>
-                                    </div>
+                                    <img src="http://launchdeck.org/wp-content/uploads/2017/11/tervascreen.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -129,18 +120,19 @@
                         <div class="portfolio-item">
                             <!-- Item title -->
                             <div class="item-title">
-                                <h1><b>A big project</b></h1>
+                                <h1><b>Terva</b></h1>
+                                <img src="http://launchdeck.org/wp-content/uploads/2017/11/terva-1.png" alt="">
                                 <div class="title-divider"></div>
                             </div>
                             <!-- Description -->
                             <div class="project-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-                                <p>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</p>
+                                <p>How we help create the "Zillow" for farmland</p>
+                                <p>Making the world's farmland information accessible.</p>
+                                <p>Terva’s mission is to make the world’s farmland information accessible to individual buyers and land brokers. A year after founding, Terva came to us in need of technology leadership. In just a few short months, we stabalized the platform and launched the well-received MVP that quickly became adopted by 30% of the industry.</p>
                             </div>
                             <!-- Meta made for -->
                             <div class="made-for">
-                                <div class="p-label"><b>Made for</b></div>
-                                <img src="assets/images/logos/custom/infinite.svg" alt="">
+                                <div class="p-label"><b>MeteorJS  /  MongoDB  /  Braintree  /  Mapbox  / Compose.io</b></div>
                             </div>
                             <hr>
                             <!-- Meta details -->
@@ -175,6 +167,58 @@
         </section>
         <!-- /Portfolio item -->
         
+        <!-- Final CTA section -->
+        <section id="contact" class="section is-medium" style="background-color: #0084c4">
+                <div class="container column is-6 is-offset-3">
+                    <div class="centered-title is-inverted">
+                        <h2>Start a Project</h2>
+                        <div class="title-divider"></div>
+                        <div class="subheading">
+                            Customized solutions and products to fit your needs
+                        </div>
+                    </div>  
+                    <div class="light-bordered light-raised">
+                        <div class="card-body">
+                            <form class="padding-20" action="https://formspree.io/thomas@venturepoint.io" method="POST">
+                                <input type="hidden" name="_cc" value="thomashornb@gmail.com" />
+                                <!--<input type="hidden" name="_next" value="https://site.io/thanks.html" />-->
+                                <div class="control-material is-primary">      
+                                    <input name="fullname" style="border-bottom: 1px solid #fff;color: #fff" class="material-input " type="text" required="">
+                                    <span class="material-highlight"></span>
+                                    <span class="bar"></span>
+                                    <label style="color:#fff">Full name *</label>
+                                </div>
+                                <div class="control-material is-primary">      
+                                    <input name="_replyto" style="border-bottom: 1px solid #fff; color: #fff" class="material-input " type="email" required="">
+                                    <span class="material-highlight"></span>
+                                    <span class="bar"></span>
+                                    <label style="color:#fff">Email *</label>
+                                </div>
+                                <div class="control-material is-primary">      
+                                        <input name="phonenumber" style="border-bottom: 1px solid #fff; color: #fff" class="material-input " type="text" required="">
+                                        <span class="material-highlight"></span>
+                                        <span class="bar"></span>
+                                        <label style="color:#fff">Phone Number *</label>
+                                </div>
+                                <div class="control-material is-primary">  
+                                    <textarea name="messagebody" style="border-bottom: 1px solid #fff;color: #fff" rows="5"></textarea>
+                                    <span class="material-highlight"></span>
+                                    <span class="bar"></span>
+                                    <label style="color:#fff">Message *</label>
+                                </div>
+                                <!--<div class="mt-20 has-text-right">
+                                    <button type="submit" class="button btn-align info-btn raised">SUBMIT</button>
+                                </div>-->
+                                <div class="centered-title pt-40 is-inverted">
+                                        <button style="padding: 10px 40px 30px 40px !important" type="submit" class="button button-cta is-bold btn-align light-btn btn-outlined rounded is-title-reveal">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Final CTA section -->
+        
         <!-- Dark footer -->
         <footer id="dark-footer" class="footer footer-dark">
             <div class="container">
@@ -182,46 +226,18 @@
                     <div class="column">
                         <div class="footer-column">
                             <div class="footer-header">
-                                <h3>Product</h3>
-                            </div>
-                            <ul class="link-list">
-                                <li><a href="#">Discover features</a></li>
-                                <li><a href="#">CMS integration</a></li>
-                                <li><a href="#">Customers</a></li>
-                                <li><a href="#">Weekly sessions</a></li>
-                                <li><a href="#">Free trials and demo</a></li>
-                                <li><a href="#">What's next ?</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="footer-column">
-                            <div class="footer-header">
                                 <h3>Company</h3>
                             </div>
                             <ul class="link-list">
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">About security</a></li>
-                                <li><a href="#">User guide</a></li>
-                                <li><a href="#">Terms of service</a></li>
-                                <li><a href="#">Terms of website use</a></li>
-                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#about">Our Services</a></li>
+                                <li><a href="#portfolio">Our Work</a></li>
+                                <li><a href="#team">Team</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="footer-column">
-                            <div class="footer-header">
-                                <h3>Learning</h3>
-                            </div>
-                            <ul class="link-list">
-                                <li><a href="#">Resources</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">API documentation</a></li>
-                                <li><a href="#">Admin guide</a></li>
-                            </ul>
-                        </div>
+                    </div>
+                    <div class="column">
                     </div>
                     <div class="column">
                         <div class="footer-column">
@@ -231,7 +247,7 @@
                             <div class="footer-header">
                                 <nav class="level is-mobile">
                                     <div class="level-left level-social">
-                                        <a href="#" class="level-item">
+                                        <a href="https://www.facebook.com/VenturePoint-220704808631991/" class="level-item">
                                             <span class="icon"><i class="fa fa-facebook"></i></span>
                                         </a>
                                         <a href="#" class="level-item">
