@@ -21,8 +21,13 @@
         
         <!-- Hero (Parallax) and nav -->
         <!-- Fullheight Hero -->
-        <div class="hero is-fullheight is-medium parallax is-cover is-relative"  data-color="#000" data-color-opacity="0.7" data-background="assets/images/GettyImages-465404033-1.jpg">
-            
+        <style>
+        .parallax-overlay {
+            background: #2c2e94;background: -moz-linear-gradient(-45deg, #2c2e94 0%, #1abc9c 100%);background: -webkit-linear-gradient(-45deg, #2c2e94 0%, #1abc9c 100%);background: linear-gradient(135deg, #2c2e94 0%, #1abc9c 100%);opacity:0.9;
+        }
+        </style>
+        <div class="hero is-fullheight is-medium parallax is-cover is-relative" data-background="assets/images/GettyImages-465404033-1.jpg">
+        
             <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
                 <div class="container">
                     <!-- Brand -->
@@ -66,7 +71,19 @@
                     <div class="navbar-menu">
                         <!-- Navbar Start -->
                         <div class="navbar-start">
-            
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide" href="/#about">
+                                    Our Services
+                            </a>
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide" href="/#portfolio">
+                                    Our Work
+                            </a>
+                            <!-- Navbar item -->
+                            <a class="navbar-item is-slide" href="/#team">
+                                Team
+                            </a>
+                            
                             
                         </div>
             
