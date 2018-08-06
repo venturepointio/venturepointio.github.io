@@ -18,9 +18,35 @@
     <body>
         <div class="pageloader"></div>
         <div class="infraloader is-active"></div>        
+        <style>
+            .parallax-overlay {
+                background: linear-gradient(225deg, #2c2e94, #1abc9c);
+                background-size: 400% 400%;
+                -webkit-animation: AnimationName 30s ease infinite;
+                -moz-animation: AnimationName 30s ease infinite;
+                animation: AnimationName 30s ease infinite;
+                opacity: 0.7 !important;
+            }
         
+            @-webkit-keyframes AnimationName {
+                0%{background-position:0% 99%}
+                50%{background-position:100% 2%}
+                100%{background-position:0% 99%}
+            }
+            @-moz-keyframes AnimationName {
+                0%{background-position:0% 99%}
+                50%{background-position:100% 2%}
+                100%{background-position:0% 99%}
+            }
+            @keyframes AnimationName { 
+                0%{background-position:0% 99%}
+                50%{background-position:100% 2%}
+                100%{background-position:0% 99%}
+        }
+            </style>
         <!-- Hero and nav -->
-        <div class="hero is-cover is-relative is-fullheight is-default is-bold">
+        <div class="hero is-fullheight is-medium parallax is-cover is-relative" data-background="assets/images/hero-image-1080-cropped.jpg">
+        
             
             <nav class="navbar navbar-wrapper navbar-fade navbar-light is-transparent">
                 <div class="container">
@@ -93,73 +119,23 @@
                     </div>
                 </div>
             </nav>
-            <!-- Hero Wallop Slider -->
-            <div class="Wallop Wallop--scale">
-                <div class="Wallop-list">
-                    <!-- Slide -->
-                    <div class="Wallop-item Wallop-item--current has-background-image" style="background-position: center;" data-background="assets/images/hero-image-1080-gradient.jpg">
-                        <div class="Wallop-overlay"></div>
-                        <div class="Wallop-caption-wrapper">
-                            <div class="Wallop-caption is-centered">
-                                <div class="main-inner">
-                                    <h1>Create Exceptional Products</h1>
-                                </div>
-                                <div>
-                                    <h4>We partner with forward-thinking companies to build cutting-edge technologies</h4>
-                                </div>
-                                <div class="caption-action">
-                                    <a href="#about" class="button button-cta btn-align light-btn btn-outlined is-bold rounded">Learn More</a>
-                                </div>
-                            </div>
+            <!-- Hero caption -->
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <div class="container has-text-centered is-vcentered">
+                        <div class="main-inner">
+                            <h1 class="title main-title subpage-title text-bold is-2" style="text-transform: uppercase">Create Exceptional Products</h1>
+                        </div>
+                        <div>
+                            <h4 class="subtitle  light-text  is-centered">We partner with forward-thinking companies to build cutting-edge technologies</h4><br/>
+                        </div>
+                        <div class="caption-action">
+                            <a href="#about" class="button button-cta btn-align light-btn btn-outlined is-bold rounded">Learn More</a>
                         </div>
                     </div>
-                    <!-- Slide
-                    <div class="Wallop-item has-background-image" data-background="https://via.placeholder.com/1920x1080">
-                        <div class="Wallop-overlay"></div>
-                        <div class="Wallop-caption-wrapper">
-                            <div class="Wallop-caption is-centered">
-                                <div class="main-inner">
-                                    <h1>Looking for epic design ?</h1>
-                                </div>
-                                <div>
-                                    <h4>Hire our team of specialists to get the best from the web</h4>
-                                </div>
-                                <div class="caption-action">
-                                    <a href="#services" class="button button-cta btn-align light-btn btn-outlined is-bold rounded">Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- Slide 
-                    <div class="Wallop-item has-background-image" data-background="https://via.placeholder.com/1920x1080">
-                        <div class="Wallop-overlay"></div>
-                        <div class="Wallop-caption-wrapper">
-                            <div class="Wallop-caption is-centered">
-                                <div class="main-inner">
-                                    <h1>You're at the right place</h1>
-                                </div>
-                                <div>
-                                    <h4>Our products are mentionned for their code and design quality </h4>
-                                </div>
-                                <div class="caption-action">
-                                    <a href="#services" class="button button-cta btn-align light-btn btn-outlined is-bold rounded">Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
-                <!-- Pagination dots 
-                <div class="Wallop-pagination">
-                    <button class="Wallop-dot Wallop-dot--current">go to item 1</button>
-                    <button class="Wallop-dot">go to item 2</button>
-                    <button class="Wallop-dot">go to item 3</button>      
-                </div> -->
-                <!-- Navigation arrows 
-                <button class="Wallop-buttonPrevious is-hidden-mobile"><i class="material-icons">arrow_back</i></button>
-                <button class="Wallop-buttonNext is-hidden-mobile"><i class="material-icons">arrow_forward</i></button>
-                -->
             </div>
-            <!-- /Hero Wallop Slider -->
+            <!-- /Hero caption -->
         </div>
         <!-- /Hero and nav -->
         
